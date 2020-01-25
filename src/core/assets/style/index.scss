@@ -1,0 +1,72 @@
+$primary-color: rgb(83, 196, 153);
+$success-color: rgb(31, 117, 49);
+$error-color: rgb(187, 24, 13);
+$general_margin: 50px;
+
+body {
+  font: 13px/20px 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  color: #404040;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: $general_margin;
+}
+
+.textInfo {
+  font-size: 24px;
+  text-align: center;
+  line-height: 2em;
+}
+
+.formInput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.primaryButton {
+  width: 100%;
+  background-color: $primary-color;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.success {
+  padding: 20px;
+  color: $success-color;
+  margin: $general_margin;
+}
+
+.error {
+  padding: 20px;
+  color: $error-color;
+  margin: $general_margin;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+

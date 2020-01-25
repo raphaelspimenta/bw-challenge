@@ -1,0 +1,37 @@
+{
+  "type": "container",
+  "class": "container",
+  "children": [
+    {
+      "tag": "image",
+      "url": "https://prnewswire2-a.akamaihd.net/p/1893751/sp/189375100/thumbnail/entry_id/1_uqd9o57h/def_height/113/def_width/444/version/100011/type/1",
+      "description": "Minha imagem"
+    },
+    {
+      "tag": "text",
+      "value": "Olá! Esse teste é pra saber se você pode ser preso ou não. Faz o teste ai embaixo :)",
+      "class": "textInfo"
+    },
+    {
+      "tag": "input",
+      "type": "number",
+      "value": "",
+      "id": "age",
+      "placeholder": "Quantos anos você tem?",
+      "class": "formInput"
+    },
+    {
+      "tag": "button",
+      "value": "Submit",
+      "action": {
+        "id": "VALIDATE_MAJORITY",
+        "params": ["age"]
+      },
+      "class": "primaryButton"
+    },
+    {
+      "tag": "teste",
+      "class": "primaryButton"
+    }
+  ]
+}
